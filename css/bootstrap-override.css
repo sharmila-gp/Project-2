@@ -1,0 +1,48 @@
+:root{
+	--darkgreen:#5fcf80;
+	--lightgreen:#ecf9f0;
+	--white:#ffffff;
+	--black:#0f1110;
+	--grey:#8a8685;
+}
+.navbar-brand {
+	 color:var(--darkgreen);
+	 font-weight:700;
+	 margin-right: 17rem;
+}
+.navbar{
+	position:fixed;
+	width:100%;
+}
+a.nav-link{
+	color:var(--black);
+	font-family:"Open Sans", arial, serief;
+	font-weight:600;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right:18px;
+	padding-left:18px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
+{
+	color:var(--darkgreen);
+}
+
+.btn{
+	border-radius:30px;
+	color:var(--white);
+	padding-right:15px;
+	padding-left:15px;
+}
+.nav-link:hover{
+	color:var(--darkgreen);
+}
+.btn:hover {
+	color:var(--darkgreen);
+	background-color:var(--white);
+}
+.btn-outline-info{
+	border-color:var(--white);
+	color:var(--white);
+	border-radius:30px;
+}
