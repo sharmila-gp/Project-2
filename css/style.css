@@ -4,6 +4,7 @@
 	--white:#ffffff;
 	--black:#0f1110;
 	--grey:#7e9486;
+	--green:#7fd999;
 }
 
 
@@ -72,3 +73,105 @@
 	font-weight:500;
 }
 /*---number section ends----*/
+
+/*----card-section starts----*/
+.mentor-content{
+	background-color:var(--darkgreen);
+	color:var(--white);
+	border-color:var(--darkgreen)
+}
+.button-div{
+	width:100%;
+}
+
+.btn-color{
+	background-color:var(--green);
+	color:var(--white);
+}
+.btn-color:hover{
+	color:var(--darkgreen);
+	background-color:var(--white);
+}
+.mentor-content h2{
+	font-weight:700;
+}
+.mentor-content p{
+	font-size:1.1rem;
+}
+.icon-section{
+	border:1px solid var(--grey);
+}
+.margin-0{
+	margin-bottom:0rem;
+}	
+.icon-cover{
+	width:4rem;
+	height:4rem;
+	border-radius:50%;
+	margin:2rem auto;
+	background-color:var(--lightgreen);
+}
+.icon-cover i{
+	font-size:1.5rem;
+	color:var(--darkgreen);
+}
+.icon-section p{
+	color:var(--grey);
+}
+/*---card section ends----*/
+
+/*----company-section starts----*/
+.company-name {
+	border:1px solid var(--grey);	
+	font-family:"Open Sans", Arial;
+}
+.company-name i{
+	font-size:1.5rem;
+}
+.color-1{
+	color:#ffbb2c;
+}
+.color-2{
+	color:#5578ff;
+}
+.color-3{
+	color:#e80368;
+}
+.color-4{
+	color:#e361ff;
+}
+.color-5{
+	color:#47aeff;
+}
+.color-6{
+	color:#ffa76e;
+}
+.color-7{
+	color:#11dbcf;
+}
+.color-8{
+	color:#4233ff;
+}
+.color-9{
+	color:#b2904f;
+}
+.color-10{
+	color:#b20969;
+}
+.color-11{
+	color:#ff5828;
+}
+.color-12{
+	color:#29cc61;
+}
+.company-name:hover{
+	border:1px solid var(--darkgreen);
+}
+.company-name:hover p{
+	color:var(--darkgreen);
+	
+}
+/*---company section ends----*/
+
+
+

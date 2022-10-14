@@ -22,7 +22,7 @@ a.nav-link{
 }
 
 .btn{
-	border-radius:30px;
+	border-radius:2rem;
 	color:var(--white);
 	padding-right:1rem;
 	padding-left:1rem;
@@ -50,3 +50,8 @@ a.nav-link{
 
 
 /*---About section ends----*/
+
+/*----card-section starts----*/
+
+
+/*---card section ends----*/
