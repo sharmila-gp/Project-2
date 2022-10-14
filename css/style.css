@@ -3,11 +3,20 @@
 	--lightgreen:#ecf9f0;
 	--white:#ffffff;
 	--black:#0f1110;
-	--grey:#8a8685;
+	--grey:#7e9486;
 }
+
+
+
+/*---Header-section starts---*/
 .bg-white{
 	background-color:var(--white);
 }
+
+/*---Header-section Ends---*/
+
+
+/*----Banner section starts----*/
 .banner-section{
 	background-image: linear-gradient(rgba(13 12 12 / 25%),rgb(19 19 18 / 25%)),url(../images/hero-bg.jpg);
 	background-position:left top;
@@ -16,9 +25,6 @@
 	background-repeat:no-repeat;
 	background-origin: content-box;
 	height:100vh;
-}
-.pd-tp-200px{
-	padding:250px 0;
 }
 .banner-content{
 	color:var(--white);
@@ -32,3 +38,37 @@
 .btn-bg-color{
 	background-color:var(--darkgreen);
 }
+/*-----Banner section ends----*/
+
+/*----About-section starts----*/
+
+.abt-image{
+	width:100%;
+}
+.list-style-type-none{
+	list-style-type:none;
+}
+
+.abt-content ul li i{
+	color:var(--darkgreen);
+}
+/*---About section ends----*/
+
+
+/*---number section starts----*/
+.number-section{
+	background-color:#f6f7f6;
+}
+.num-content{
+	padding:2rem;
+}
+
+.num-content h1{
+	color:var(--darkgreen);
+	font-weight:700;
+}
+
+.num-content p{
+	font-weight:500;
+}
+/*---number section ends----*/

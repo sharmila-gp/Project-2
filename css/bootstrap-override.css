@@ -1,27 +1,20 @@
-:root{
-	--darkgreen:#5fcf80;
-	--lightgreen:#ecf9f0;
-	--white:#ffffff;
-	--black:#0f1110;
-	--grey:#8a8685;
-}
+
+/*---Header-section starts---*/
 .navbar-brand {
 	 color:var(--darkgreen);
 	 font-weight:700;
 	 margin-right: 17rem;
+	 font-size:2rem;
 }
-.navbar{
-	position:fixed;
-	width:100%;
-}
+
 a.nav-link{
 	color:var(--black);
 	font-family:"Open Sans", arial, serief;
 	font-weight:600;
 }
 .navbar-expand-lg .navbar-nav .nav-link{
-	padding-right:18px;
-	padding-left:18px;
+	padding-right:1rem;
+	padding-left:1rem;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link
 {
@@ -31,18 +24,29 @@ a.nav-link{
 .btn{
 	border-radius:30px;
 	color:var(--white);
-	padding-right:15px;
-	padding-left:15px;
+	padding-right:1rem;
+	padding-left:1rem;
 }
 .nav-link:hover{
 	color:var(--darkgreen);
 }
 .btn:hover {
-	color:var(--darkgreen);
-	background-color:var(--white);
+	background-color:var(--green);
+	color:var(--white);
 }
+/*---Header-section Ends---*/
+
+
+/*----Banner section starts----*/
 .btn-outline-info{
 	border-color:var(--white);
 	color:var(--white);
-	border-radius:30px;
+	border-radius:2rem;
 }
+
+/*-----Banner section ends----*/
+
+/*----About-section starts----*/
+
+
+/*---About section ends----*/
