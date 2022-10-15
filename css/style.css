@@ -6,7 +6,9 @@
 	--grey:#7e9486;
 	--green:#7fd999;
 }
-
+html, body{
+	font-family:"Open Sans", Arial;
+}
 /*---Header-section starts---*/
 .bg-white{
 	background-color:var(--white);
@@ -239,11 +241,39 @@
 /*---Trainer section ends----*/
 
 
-/*---course section starts----*/
-/*---course section ends----*/
+/*---Event section starts----*/
+.event-img-div{
+	width:100%;
+	overflow:hidden;
+}
+.event-img{
+	transform:scale(1,1);
+	transition-duration:1s;
+	z-index:-1;
+}
+.event-container .event-content{
+	position:relative;
+	z-index:1;
+	margin-top:-70px;
+}
+.inner-content{
+	background-color:var(--white);	
+	border-top:0.3rem solid var(--white);
+}
+.event-container:hover .event-img{
+	transform:scale(1.1,1.1);
+}
+.event-container:hover .event-content .inner-content{
+	border-top:0.3rem solid var(--darkgreen);
+}
+.event-container:hover .event-content .inner-content h5{
+	color:var(--darkgreen);
+}
 
-/*---course section starts----*/
-/*---course section ends----*/
+/*---Event section ends----*/
+
+/*---Pricing section starts----*/
+/*---Pricing section ends----*/
 
 /*---course section starts----*/
 /*---course section ends----*/
