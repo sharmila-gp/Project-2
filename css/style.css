@@ -7,8 +7,6 @@
 	--green:#7fd999;
 }
 
-
-
 /*---Header-section starts---*/
 .bg-white{
 	background-color:var(--white);
@@ -88,7 +86,7 @@
 	background-color:var(--green);
 	color:var(--white);
 }
-.btn-color:hover{
+.button-div .btn-color:hover{
 	color:var(--darkgreen);
 	background-color:var(--white);
 }
@@ -173,5 +171,85 @@
 }
 /*---company section ends----*/
 
+/*---title section starts----*/
+.title-sec{
+	background-color:var(--darkgreen);
+}
+.title-color{
+	color:var(--white);
+	
+}
+/*---title section ends----*/
+
+/*---course section starts----*/
+.course-title{
+	font-family:"Open Sans", Arial;
+	position:relative;
+}
+
+.course-title::after{
+	content:"";
+	position:absolute;
+	width:7rem;
+	height:1px;
+	background-color:var(--darkgreen);
+	top:0.8rem;
+	left:6rem;
+}
+.course-contact{
+	position:relative;
+}
+.course-contact::before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:1px;
+	background-color:#d2d2d2;
+	top:0;
+	left:0;
+}
+
+.image-src{
+	width:3rem;
+	height:3rem;
+}
+.contact-detail i{
+	color:#d2d2d2;
+}
+.card-body h4:hover{
+	color:var(--darkgreen);
+}
+/*---course section ends----*/
+
+/*---Trainer section starts----*/
+.fz-thin{
+	font-size:0.8rem;
+}
+.color-dim{
+	color:#acacac;
+}
+.color-bright{
+	color:#7f7f7f;
+}
+.icon-div{
+	width:100%;
+	font-size:1.2rem;
+	color:var(--grey);
+}
+/*---Trainer section ends----*/
 
 
+/*---course section starts----*/
+/*---course section ends----*/
+
+/*---course section starts----*/
+/*---course section ends----*/
+
+/*---course section starts----*/
+/*---course section ends----*/
+
+/*---course section starts----*/
+/*---course section ends----*/
+
+/*---course section starts----*/
+/*---course section ends----*/
