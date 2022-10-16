@@ -273,6 +273,33 @@ html, body{
 /*---Event section ends----*/
 
 /*---Pricing section starts----*/
+.color-darkgreen{
+	color:var(--darkgreen);
+}
+.fz-small{
+	font-size:1rem;
+}
+.border-dim{
+	border-color:#f7f7f7;
+}
+.border-card{
+	border-color:#eef0ef;
+	position:relative;
+	overflow:hidden;
+}
+.advanced{
+	width:150px;
+	text-align:center;
+	background-color:var(--darkgreen);
+	color:var(--white);
+	font-size:14px;
+	transform:rotate(45deg);
+	position:absolute;
+	top:16px;
+	right:-45px;
+	
+	
+}
 /*---Pricing section ends----*/
 
 /*---course section starts----*/
