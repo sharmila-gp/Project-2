@@ -239,6 +239,10 @@ html, body{
 	width:100%;
 	font-size:1.2rem;
 	color:var(--grey);
+	transition-duration:1s;
+}
+.icon-div i:hover {
+	color:var(--darkgreen);
 }
 /*---Trainer section ends----*/
 
@@ -318,8 +322,37 @@ html, body{
 }
 /*---contact section ends----*/
 
-/*---course section starts----*/
-/*---course section ends----*/
+/*---Footer section starts----*/
+.footer-section{
+	background-color:#f9faf9;
+}
 
-/*---course section starts----*/
-/*---course section ends----*/
+.list-style-type-none li{
+	display:block;
+}
+.border-footer{
+	border:1px solid #eef0ef;
+	background-color:var(--white);
+}
+.input-class{
+	width:100%;
+	border:none;
+	background-color:var(--white);
+}
+/*---Footer section ends----*/
+
+/*---End section starts----*/
+.end{
+	background-color:#eef0ef;
+}
+.end-icon{
+	width:2rem;
+	height:2rem;
+	border-radius:50%;
+	font-size:1rem;
+	transition-duration:1s;
+}
+.end-icon:hover{
+	background-color:var(--green);
+}
+/*---End section ends----*/
