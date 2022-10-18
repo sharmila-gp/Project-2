@@ -27,9 +27,7 @@ a.nav-link{
 	padding-right:1rem;
 	padding-left:1rem;
 }
-.nav-link:hover{
-	color:var(--darkgreen);
-}
+
 .btn:hover {
 	background-color:var(--green);
 	color:var(--white);

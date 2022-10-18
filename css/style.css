@@ -187,18 +187,17 @@ html, body{
 
 /*---course section starts----*/
 .course-title{
-	font-family:"Open Sans", Arial;
 	position:relative;
 }
 
-.course-title::after{
+.course-title h5::after{
 	content:"";
 	position:absolute;
 	width:7rem;
 	height:1px;
 	background-color:var(--darkgreen);
 	top:0.8rem;
-	left:6rem;
+	left:9rem;
 }
 .course-contact{
 	position:relative;
@@ -333,9 +332,14 @@ html, body{
 .border-footer{
 	border:1px solid #eef0ef;
 	background-color:var(--white);
+	position:relative;
+}
+.position-btn{
+	position:absolute;
+	top:0;
+	right:0;
 }
 .input-class{
-	width:100%;
 	border:none;
 	background-color:var(--white);
 }
