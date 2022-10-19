@@ -53,6 +53,35 @@ html, body{
 .abt-content ul li i{
 	color:var(--darkgreen);
 }
+
+.wrapper .owl-dot span{
+	border:1px solid var(--darkgreen)!important;
+	background-color:var(--white)!important;
+}
+.wrapper .owl-dot.active span{
+	background-color:var(--darkgreen)!important;
+	
+}
+.testimonial-container{
+	position:relative;
+}
+.testimonial-content{
+	margin-left:3.5rem !important;
+	padding-left:3.5rem !important;
+	border:1px solid #eef0ef;
+}
+.testimonial-content i{
+	color:var(--lightgreen);
+	font-size:2rem;
+}
+.image-margin{
+	width:5rem;
+	height:5rem;
+	position:absolute;
+	top:3rem;
+	left:1.5rem;
+	
+}
 /*---About section ends----*/
 
 
@@ -190,14 +219,13 @@ html, body{
 	position:relative;
 }
 
-.course-title h5::after{
+.h5-after::after{
 	content:"";
 	position:absolute;
 	width:7rem;
 	height:1px;
 	background-color:var(--darkgreen);
-	top:0.8rem;
-	left:9rem;
+	margin:10px;
 }
 .course-contact{
 	position:relative;
