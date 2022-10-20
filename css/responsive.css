@@ -1,15 +1,15 @@
 @media (max-width:576px){
-	.navbar .navbar-brand {
+	a.navbar .navbar-brand {
 		    margin-right: 0!important;
 	}
 	.banner-section {
-		background-position:center center;
+		background-position:center center!important;
 	}
 	.banner-content h1 {
     font-size: 1.5rem!important;
 	}
 	.banner-content p {
-    font-size: 0.8rem;
+    font-size: 0.8rem!important;
 	}
 }
 
@@ -20,27 +20,47 @@
 		    margin-right: 0rem!important;
 	}
 	.banner-section {
-		background-position:center center;
+		background-position:center center!important;
 	}
 	.banner-content h1 {
     font-size: 2rem!important;
 	}
 	.banner-content p {
-    font-size: 0.8rem;
+    font-size: 0.8rem!important;
 	}
 }
 
 
 @media (max-width:992px){
-	
+	.navbar .navbar-brand {
+		    margin-right: 1rem!important;
+	}
 	.banner-section {
-		background-position:center center;
+		background-position:center center!important;
 	}
 	.banner-content h1 {
-    font-size: 3rem;
+    font-size: 3rem!important;
 	}
 	.banner-content p {
-    font-size: 1rem;
+    font-size: 1rem!important;
 	}
 }
 
+@media (max-width:1200px){
+	.navbar .navbar-brand {
+		    margin-right: 3.5rem!important;
+	}
+	.navbar-expand-xl .navbar-nav .nav-link{
+	padding-right:0.5rem;
+	padding-left:0.5rem;
+	}
+	.banner-section {
+		background-position:center center!important;
+	}
+	.banner-content h1 {
+    font-size: 3rem!important;
+	}
+	.banner-content p {
+    font-size: 1rem!important;
+	}
+}
